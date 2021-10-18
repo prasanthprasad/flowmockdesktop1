@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'montserrat-regular-webfont';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.heading{
+	text-align: center;
+	margin-top: 6rem;
+}
+.heading h1{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	line-height: 13px;
+}
+.heading h6{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 45px;
+	color: #5A9CD4;
+}
+img{
+	width: 100%;
+	margin-top: 3rem;
+}
+.logo{
+	 width: 85%;
+     padding-top: 6rem;
+     margin: 0 auto;
+    
+ }
+ .login{
+ 	    margin-top: 4rem;
+ 	    font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		line-height: 13px;
+ }
+
+h4{
+	ont-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 13px;
+	text-align: center;
+	margin-top: 7rem;
+}
+.form{
+	text-align: center;
+}
+.formsection{
+	width: 88%;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+.Email{
+	border: 1px solid #0374BC;
+    border-radius: 9px;
+    margin-top: 2rem;
+    position: relative;
+}
+.email1{
+	    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    background-color: white;
+    color: #0374BC;
+    padding: 5px;
+}
+.email1 p{
+	    margin-bottom: 0 !important;
+}
+.password{
+	border: 1px solid #0374BC;
+    border-radius: 9px;
+    margin-top: 2rem;
+}
+input{
+	 padding: 8px 0rem 8px 10px;
+    border-radius: 9px;
+    width: 100%;
+    outline: blue;
+    border: none;
+
+}
+.forget p{
+	color: #0374BC;
+	text-align: right;
+	margin-top: 24px;
+}
+.forget{
+	text-align: left;
+}
+ button{
+	width: 100%;
+    padding: 10px 0px;
+    color: white;
+    background-color:#0374BC;
+    border: none;
+    border-radius: 10px !important;
+    margin-top: 12px !important;
+    outline: none !important;
+
+}
+
+.request{
+	margin-top: 44px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 13px;
+}
+span{
+	color:#0374BC; 
+}
